@@ -26,7 +26,7 @@ class App < Sinatra::Base
       "Session value has not been set!"
     end
     @session = session[:foo]
-    @sesion = 'hello'
+    @session = 'hello'
   end
 
   get '/fetch' do
